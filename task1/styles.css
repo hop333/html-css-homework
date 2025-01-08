@@ -1,0 +1,44 @@
+body {
+    background-color: #ffe4e1; 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto; 
+    width: 150px;
+    border: 2px solid #000;
+}
+
+p {
+    text-align: center; 
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+}
+
+li {
+    margin: 10px 0; 
+    padding: 5px; 
+    background-color: #fff; 
+    border-radius: 5px; 
+}
+
+a {
+    display: block;
+    text-align: left; 
+    margin-top: 20px; 
+    color: #007BFF;
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}

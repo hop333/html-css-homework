@@ -1,0 +1,66 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    background-color: #ffebee; 
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff; 
+    border:1px solid #f8bbd0; 
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    margin: 10px;
+    padding: 15px;
+    width: 30%; 
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+
+.card h2 {
+    color: #d81b60; 
+    font-size: 1.5em; 
+}
+
+.card p {
+    color: #555;
+    font-size: 1em; 
+}
+
+.buy-button {
+    background-color: #f06292; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.buy-button:hover {
+    background-color: #ec407a;
+    transform: translateY(-2px); 
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; 
+    }
+}
